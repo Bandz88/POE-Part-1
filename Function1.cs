@@ -5,19 +5,20 @@ using Microsoft.Extensions.Logging;
 
 namespace CoffeeAndChill;
 
-public class Function1
+public class CoffeeNChillTest
 {
-    private readonly ILogger<Function1> _logger;
+    private readonly ILogger<CoffeeNChillTest> _logger;
 
-    public Function1(ILogger<Function1> logger)
+    public CoffeeNChillTest(ILogger<CoffeeNChillTest> logger)
     {
         _logger = logger;
     }
 
-    [Function("Function1")]
+    [Function("CoffeeNChillTest")]
     public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
-        return new OkObjectResult("Welcome to Azure Functions!");
+        return new OkObjectResult("CoffeeNChillTest is Running");
     }
 }
+
