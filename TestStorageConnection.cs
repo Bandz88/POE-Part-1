@@ -24,7 +24,7 @@ namespace CoffeeNChill.Functions
             //basically sais create table if it doesn't exist, if it does exist, do nothing 
 
             await serviceClient.CreateTableIfNotExistsAsync(tableName);
-
+             
             return new OkObjectResult(new
             {
                 message = "Successfully connected to Azure Table Storage!",
