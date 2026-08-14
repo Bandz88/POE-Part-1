@@ -18,7 +18,7 @@ public class CoffeeNChillTest
     public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
-        return new OkObjectResult("CoffeeNChillTestA is Running");
+        return new OkObjectResult("CoffeeNChillTest is Running");
     }
 }
 
