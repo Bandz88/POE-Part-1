@@ -4,6 +4,8 @@
 # Bandile Qwabe
 # Esethu Lushaba
 
+YOUTUBE VIEO: https://youtu.be/DrKdLZVdVzQ?si=zG6Bl2SXcgpGmO29
+
 
 Aphiwe Hlubi - Docker orchestration images 
 <img width="1866" height="552" alt="compose and functions running" src="https://github.com/user-attachments/assets/48e9abcf-abab-4fc4-b9bc-c922a1de4474" />
