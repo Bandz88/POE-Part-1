@@ -11,7 +11,7 @@ namespace CoffeeAndChill.Models
         public double TotalPrice { get; set; }
         public DateTimeOffset OrderTimestamp { get; set; }
         public string Status { get; set; } = "Received";
-
+         
         [JsonIgnore] public string PartitionKey { get; set; } = string.Empty;
         [JsonIgnore] public string RowKey { get; set; } = string.Empty;
         [JsonIgnore] public DateTimeOffset? Timestamp { get; set; }
