@@ -66,15 +66,24 @@ namespace CoffeeAndChill.Functions
                     ?? throw new InvalidOperationException(
                         "AzureWebJobsStorage is missing.");
 
+<<<<<<< HEAD
                 QueueClient queueClient =
+=======
+                QueueClient queueClient =                      
+>>>>>>> ba82d7c77da4c5b72408f9528d208817378c12ae
                      new QueueClient(
                           connectionString,
                      "order-processing-queue",
                       new QueueClientOptions
                       {
+<<<<<<< HEAD
                           MessageEncoding = QueueMessageEncoding.Base64
                       });
 
+=======
+                         MessageEncoding = QueueMessageEncoding.Base64   
+                      });
+>>>>>>> ba82d7c77da4c5b72408f9528d208817378c12ae
                 await queueClient.CreateIfNotExistsAsync();
 
                 string message =
