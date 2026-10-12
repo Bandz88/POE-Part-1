@@ -23,7 +23,7 @@ Error Handling ( Missing Category)
 Error Handling ( Invalid ID/Order)
 <img width="1920" height="1200" alt="Screenshot (453)" src="https://github.com/user-attachments/assets/e7b4c258-539e-49a5-a0bc-84f43d64fc57" />
 
-Queues table empty because there are all orders have been processed therefore there is no queue.
+Queues table empty because all orders have been processed therefore there is no queue.
 <img width="1920" height="1200" alt="Screenshot (450)" src="https://github.com/user-attachments/assets/9547c268-b234-4d31-8aff-343090337e04" />
 Order Table with Collected Orders
 <img width="1920" height="1200" alt="Screenshot (449)" src="https://github.com/user-attachments/assets/d12e9419-b4c6-4beb-a6fa-4f17d6273f7d" />
